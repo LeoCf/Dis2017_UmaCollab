@@ -13,7 +13,6 @@ namespace umaCollabApp.entities
 {
     public class TeamMember : EntitiesBase
     {
-        // corresponde a "user has team"
 
         [Column("TEAMMEMBERID")]
         [AutoIncrement, PrimaryKey]

@@ -1,2 +1,2 @@
-# Dis2017_UmaCollab
-Dis repository , Uma Collab 
+# DIS_UmaCollab
+Dis 16/17 aplicação 
