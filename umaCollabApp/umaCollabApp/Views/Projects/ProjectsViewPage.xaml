@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="umaCollabApp.Views.Projects.ProjectsViewPage"
+             Title="Projects">
+
+  <ScrollView>
+    <StackLayout Padding="20">
+
+      <Button x:Name="btnProjectRegister" Text ="Project Register" Command="{Binding ProjectRegisterCommand}" ></Button>
+      <Button x:Name="btnListAllProjects" Text ="List All Projects" Command="{Binding ProjectListCommand}" ></Button>
+
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

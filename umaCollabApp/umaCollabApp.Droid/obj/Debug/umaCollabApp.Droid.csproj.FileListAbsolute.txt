@@ -1,0 +1,276 @@
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid.dll
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid.pdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid.apk
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid-Signed.apk
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\FormsViewGroup.dll
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.dll
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.pdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\FormsViewGroup.pdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\umaCollabApp.Droid.csprojResolveAssemblyReference.cache
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\umaCollabApp.Droid.dll
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\umaCollabApp.Droid.pdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\bin\umaCollabApp.Droid.apk
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\icon.png
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable-hdpi\icon.png
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\layout\tabbar.xml
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\layout\toolbar.xml
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\values\styles.xml
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\project.png
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\user.png
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\rate.png
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\event.png
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\home.png
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\R.cs.flag
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\uploadflags.txt
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\FormsViewGroup.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Java.Interop.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Mono.Android.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\mscorlib.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Core.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Net.Http.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Xml.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Xml.Linq.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Core.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\umaCollabApp.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\umaCollabApp.Droid.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+c:\users\carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\SQLite.Net.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\SQLite.Net.Platform.XamarinAndroid.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid.apk
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid-Signed.apk
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\SQLite.Net.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\SQLite.Net.Platform.XamarinAndroid.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\FormsViewGroup.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\umaCollabApp.Droid.csprojResolveAssemblyReference.cache
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\umaCollabApp.Droid.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\umaCollabApp.Droid.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\bin\umaCollabApp.Droid.apk
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\icon.png
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\layout\tabbar.xml
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\layout\toolbar.xml
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\values\styles.xml
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\project.png
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\user.png
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\rate.png
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\event.png
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\home.png
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\R.cs.flag
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\uploadflags.txt
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Data.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.entities.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Data.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.entities.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Data.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Java.Interop.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Mono.Android.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\mscorlib.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Core.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Xml.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.entities.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\umaCollabApp.Data.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\umaCollabApp.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\umaCollabApp.Droid.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\umaCollabApp.entities.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\umaCollabApp.Droid.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid.apk
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid-Signed.apk
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\SQLite.Net.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\SQLite.Net.Platform.XamarinAndroid.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Data.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.entities.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Data.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Data.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\FormsViewGroup.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.entities.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\umaCollabApp.Droid.csprojResolveAssemblyReference.cache
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\umaCollabApp.Droid.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\umaCollabApp.Droid.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\bin\umaCollabApp.Droid.apk
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\icon.png
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\layout\tabbar.xml
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\layout\toolbar.xml
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\values\styles.xml
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\project.png
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\user.png
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\rate.png
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\event.png
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\home.png
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\R.cs.flag
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\uploadflags.txt
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Java.Interop.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Mono.Android.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\mscorlib.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Core.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Xml.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.entities.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\umaCollabApp.Data.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\umaCollabApp.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\umaCollabApp.Droid.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\umaCollabApp.entities.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\umaCollabApp.Droid.dll.mdb
+C:\Users\Carla\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Data.dll
+C:\Users\Carla\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.entities.dll
+C:\Users\Carla\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Data.pdb
+C:\Users\Carla\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Data.dll.mdb
+C:\Users\Carla\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.entities.pdb
+C:\Users\Carla\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.entities.dll.mdb
+C:\Users\Carla\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\umaCollabApp.Data.dll.mdb
+C:\Users\Carla\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\umaCollabApp.entities.dll.mdb
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\umaCollabApp.Droid.dll.config
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\PCLCrypto.Abstractions.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\PCLCrypto.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Validation.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Xamarin.Auth.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\PCLCrypto.xml
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\PCLCrypto.Abstractions.xml
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Validation.xml
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\System.Json.dll.mdb
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\System.Json.dll.mdb
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\star_outline.png
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\star_selected.png
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\res\drawable\collabhands.png
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\SQLiteNetExtensions.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\bin\Debug\SQLiteNetExtensions.dll.mdb
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\android\assets\SQLiteNetExtensions.dll.mdb
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp.Droid\obj\Debug\umaCollabApp.Droid.dll.mdb

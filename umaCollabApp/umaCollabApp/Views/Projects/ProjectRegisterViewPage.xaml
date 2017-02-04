@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="umaCollabApp.Views.Projects.ProjectRegisterViewPage"
+             Title="Project Register">
+  
+<ScrollView>
+  <StackLayout Padding="20">
+    <Label x:Name="lblName" Text="Name"></Label>
+    <Entry x:Name="entName" Text="{Binding CurrentProject.Name}"></Entry>
+
+    <Label x:Name="lblDescription" Text="Description"></Label>
+    <Entry x:Name="entDescription" Text="{Binding CurrentProject.Description}"></Entry>
+
+    <Label x:Name="lblDuration" Text="Duration"></Label>
+    <Entry x:Name="entDuration" Text="{Binding CurrentProject.Duration}"></Entry>
+
+    <Label x:Name="lblMemberLimit" Text="MemberLimit"></Label>
+    <Entry x:Name="entMemberLimit" Text="{Binding CurrentProject.MemberLimit}"></Entry>
+
+
+    <Button x:Name="btnSave" Text="Save" IsVisible="{Binding SaveVisibility}" Command="{Binding SaveCommand}"></Button>
+    <Button x:Name="btnDelete" Text="Delete" IsVisible="{Binding DeleteVisibility}" Command="{Binding DeleteCommand}"></Button>
+    <Button x:Name="btnUpdate" Text="Update" IsVisible="{Binding UpdateVisibility}" Command="{Binding UpdateCommand}"></Button>
+
+  </StackLayout>
+</ScrollView>  
+</ContentPage>

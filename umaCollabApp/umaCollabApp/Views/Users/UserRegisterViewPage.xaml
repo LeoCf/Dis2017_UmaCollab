@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:behaviours="clr-namespace:umaCollabApp.Behaviours;assembly=umaCollabApp"
+             x:Class="umaCollabApp.Views.Users.UserRegisterViewPage"
+             Title="User Register">
+  
+<ScrollView>
+  <StackLayout Padding="20">
+    <Label x:Name="lblFirstName" Text="First Name"></Label>
+    <Entry x:Name="entFirstName" Text="{Binding CurrentEntity.FirstName}"></Entry>
+
+    <Label x:Name="lblLastName" Text="Last Name"></Label>
+    <Entry x:Name="entLastName" Text="{Binding CurrentEntity.LastName}"></Entry>
+
+    <Label x:Name="lblEmail" Text="Email"></Label>
+    <Entry x:Name="entEmail" Text="{Binding CurrentEntity.Email}">
+      <Entry.Behaviors>
+        <behaviours:EmailValidationBehavior x:Name="emailValidation"/>
+      </Entry.Behaviors>
+    </Entry>
+
+    <Label x:Name="lblPhoneNumber" Text="Phone Number"></Label>
+    <Entry x:Name="entPhoneNumber" Text="{Binding CurrentEntity.PhoneNumber}">
+      <Entry.Behaviors>
+        <behaviours:NumberValidationBehaviour x:Name="numberValidation"/>
+        <behaviours:MaxLengthValidationBehaviour x:Name="maxLengthValidation" MaxLength="9"/>
+      </Entry.Behaviors>
+    </Entry>
+
+    <Label x:Name="lblPassword" Text="Password"></Label>
+    <Entry x:Name="entPassword" IsPassword="True" Text="{Binding CurrentEntity.Password}">
+      <Entry.Behaviors>
+        <behaviours:PasswordValidationBehavior x:Name="passwordValidation"/>
+      </Entry.Behaviors>
+    </Entry>
+
+    <Label x:Name="lblConfirmPassword" Text="Confirm Password"></Label>
+    <Entry x:Name="entConfirmPassword" IsPassword="True" Text="{Binding CurrentEntity.ConfirmPassword}">
+      <Entry.Behaviors>
+
+        <behaviours:ConfirmValidationBehaviour x:Name="confirmValidation" CompareToEntry="{Binding Source={x:Reference entPassword}}" />
+      </Entry.Behaviors>
+    </Entry>
+
+    <Button x:Name="btnSave" Text="Save" IsVisible="{Binding SaveVisibility}" Command="{Binding SaveCommand}"></Button>
+    <Button x:Name="btnDelete" Text="Delete" IsVisible="{Binding DeleteVisibility}" Command="{Binding DeleteCommand}"></Button>
+    <Button x:Name="btnUpdate" Text="Update" IsVisible="{Binding UpdateVisibility}" Command="{Binding UpdateCommand}"></Button>
+
+  </StackLayout>
+</ScrollView>
+</ContentPage>

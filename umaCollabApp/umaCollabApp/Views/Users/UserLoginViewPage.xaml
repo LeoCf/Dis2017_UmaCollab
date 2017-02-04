@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:behaviours="clr-namespace:umaCollabApp.Behaviours;assembly=umaCollabApp"
+             x:Class="umaCollabApp.Views.Users.UserLoginViewPage"
+             Title="Login">
+
+  <ScrollView>
+    <StackLayout Padding="20">
+      <Label x:Name="lblEmail" Text="Email" ></Label>
+      <Entry x:Name="entEmail" Keyboard="Email" Text="{Binding CurrentEntity.Email}">
+        <Entry.Behaviors>
+          <behaviours:EmailValidationBehavior x:Name="emailValidation"/>
+        </Entry.Behaviors>
+      </Entry>
+
+      <Label x:Name="lblPassword" Text="Password"></Label>
+      <Entry x:Name="entPassword" IsPassword="True" Text="{Binding CurrentEntity.Password}">
+        <Entry.Behaviors>
+          <behaviours:PasswordValidationBehavior x:Name="passwordValidation"/>
+        </Entry.Behaviors>
+      </Entry>
+      <Label></Label>
+      <Button x:Name="btnLogin" Text="Login" Command="{Binding LoginCommand}"></Button>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

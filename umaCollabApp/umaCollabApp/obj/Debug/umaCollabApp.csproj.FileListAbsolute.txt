@@ -1,0 +1,101 @@
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.pdb
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.pdb
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.csprojResolveAssemblyReference.cache
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\SQLite.Net.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.csprojResolveAssemblyReference.cache
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.UserListViewPage.xaml.g.cs
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.UserRegisterViewPage.xaml.g.cs
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.HomeViewPage.xaml.g.cs
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.ProjectListViewPage.xaml.g.cs
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.ProjectRegisterViewPage.xaml.g.cs
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\SQLite.Net.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.Data.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.entities.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.Data.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.entities.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.dll.mdb
+C:\Users\Jessica\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\SQLite.Net.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.Data.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.entities.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.Data.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.entities.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.csprojResolveAssemblyReference.cache
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.UserListViewPage.xaml.g.cs
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.UserRegisterViewPage.xaml.g.cs
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.HomeViewPage.xaml.g.cs
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.ProjectListViewPage.xaml.g.cs
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.ProjectRegisterViewPage.xaml.g.cs
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.dll
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.pdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.dll.mdb
+C:\Users\Carla\Desktop\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.dll.mdb
+C:\Users\Carla\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.Data.dll
+C:\Users\Carla\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.entities.dll
+C:\Users\Carla\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.Data.pdb
+C:\Users\Carla\Documents\Visual Studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.entities.pdb
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.dll.config
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\PCLCrypto.Abstractions.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\PCLCrypto.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Validation.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Auth.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\PCLCrypto.xml
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\PCLCrypto.Abstractions.xml
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Validation.xml
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.Views.HomeViewPage.xaml.g.cs
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\FormsViewGroup.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\FormsViewGroup.pdb
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.Views.Users.UserListViewPage.xaml.g.cs
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.Views.Users.UserRegisterViewPage.xaml.g.cs
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.Views.Projects.ProjectListViewPage.xaml.g.cs
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.Views.Projects.ProjectRegisterViewPage.xaml.g.cs
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.Views.Users.UserLoginViewPage.xaml.g.cs
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.Views.Projects.ProjectRateViewPage.xaml.g.cs
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.Views.Projects.ProjectsViewPage.xaml.g.cs
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.Views.Users.UsersViewPage.xaml.g.cs
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.Views.StartViewPage.xaml.g.cs
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.Views.Teams.TeamRegisterViewPage.xaml.g.cs
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.Views.Teams.TeamListViewPage.xaml.g.cs
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.Views.Teams.TeamsViewPage.xaml.g.cs
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\SQLiteNetExtensions.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.Views.Teams.TeamDetailsViewPage.xaml.g.cs
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.Views.Teams.SelectMemberListPage.xaml.g.cs
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\obj\Debug\umaCollabApp.dll.mdb
+C:\Users\Carla\documents\visual studio 2015\Projects\umaCollabApp\umaCollabApp\umaCollabApp\bin\Debug\umaCollabApp.dll.mdb

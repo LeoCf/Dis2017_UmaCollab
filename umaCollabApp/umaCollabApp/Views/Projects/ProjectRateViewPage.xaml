@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+   xmlns="http://xamarin.com/schemas/2014/forms"
+   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+   xmlns:local="clr-namespace:umaCollabApp;assembly=umaCollabApp"
+   xmlns:behaviours="clr-namespace:umaCollabApp.Behaviours;assembly=umaCollabApp"
+   x:Class="umaCollabApp.Views.Projects.RatePage"
+   Title="Project Rate">
+
+
+  <ContentPage.Content>
+    <StackLayout x:Name="StarCriteria" Padding="20" >
+    <Label Text="Rate this project" HorizontalTextAlignment="Center"/>
+    <!--CRITÉRIO 1 - DESIGN-->
+    <StackLayout
+          Orientation="Horizontal" HeightRequest="40">
+        <StackLayout.Resources>
+          <ResourceDictionary>
+            <local:RatingConverter
+                x:Key="ratingConverterC1" />
+            <Style
+                TargetType="Label">
+              <Setter
+                Property="HorizontalTextAlignment"
+                Value="Start" />
+              <Setter
+                Property="VerticalTextAlignment"
+                Value="Center" />
+              <Setter
+                Property="FontSize"
+                Value="12" />
+              <Setter
+                Property="FontAttributes"
+                Value="Italic" />
+              <Setter
+                Property="TextColor"
+                Value="Red" />
+            </Style>
+          </ResourceDictionary>
+        </StackLayout.Resources>
+        <Label Text="Design           "></Label>
+        <Grid>          
+          <Grid.Behaviors>
+            <behaviours:StarBehaviorDesign
+                x:Name="starOneC1" />
+          </Grid.Behaviors>
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+            IsVisible="{Binding Source={x:Reference starOneC1}, Path=IsStarred}" />
+        </Grid>
+
+        <Grid>
+          <Grid.Behaviors>
+            <behaviours:StarBehaviorDesign
+                x:Name="starTwoC1" />
+          </Grid.Behaviors>
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+            IsVisible="{Binding Source={x:Reference starTwoC1}, Path=IsStarred}" />
+        </Grid>
+
+        <Grid>
+          <Grid.Behaviors>
+            <behaviours:StarBehaviorDesign
+                x:Name="starThreeC1" />
+          </Grid.Behaviors>
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+            IsVisible="{Binding Source={x:Reference starThreeC1}, Path=IsStarred}" />
+        </Grid>
+
+        <Grid>
+          <Grid.Behaviors>
+            <behaviours:StarBehaviorDesign
+                x:Name="starFourC1" />
+          </Grid.Behaviors>
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+            IsVisible="{Binding Source={x:Reference starFourC1}, Path=IsStarred}" />
+        </Grid>
+
+        <Grid>
+          <Grid.Behaviors>
+            <behaviours:StarBehaviorDesign
+                x:Name="starFiveC1" />
+          </Grid.Behaviors>
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+            IsVisible="{Binding Source={x:Reference starFiveC1}, Path=IsStarred}" />
+        </Grid>
+        <Label
+            Text="{Binding Source={x:Reference starFiveC1}, Path=Rating, Converter={StaticResource ratingConverterC1}}">
+        </Label>
+      </StackLayout>
+
+     
+    <!--CRITÉRIO 2 - USABILIDADE-->
+    <StackLayout
+        Orientation="Horizontal" HeightRequest="40">
+      <StackLayout.Resources>
+        <ResourceDictionary>
+          <local:RatingConverter
+              x:Key="ratingConverterC2" />
+          <Style
+              TargetType="Label">
+            <Setter
+              Property="HorizontalTextAlignment"
+              Value="Start" />
+            <Setter
+              Property="VerticalTextAlignment"
+              Value="Center" />
+            <Setter
+              Property="FontSize"
+              Value="12" />
+            <Setter
+              Property="FontAttributes"
+              Value="Italic" />
+            <Setter
+              Property="TextColor"
+              Value="Red" />
+          </Style>
+        </ResourceDictionary>
+      </StackLayout.Resources>
+      <Label Text="Usability        "></Label>
+      <Grid>        
+        <Grid.Behaviors>
+          <behaviours:StarBehaviorUsab
+              x:Name="starOneC2" />
+        </Grid.Behaviors>
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+          IsVisible="{Binding Source={x:Reference starOneC2}, Path=IsStarred}" />
+      </Grid>
+
+      <Grid>
+        <Grid.Behaviors>
+          <behaviours:StarBehaviorUsab
+              x:Name="starTwoC2" />
+        </Grid.Behaviors>
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+          IsVisible="{Binding Source={x:Reference starTwoC2}, Path=IsStarred}" />
+      </Grid>
+
+      <Grid>
+        <Grid.Behaviors>
+          <behaviours:StarBehaviorUsab
+              x:Name="starThreeC2" />
+        </Grid.Behaviors>
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+          IsVisible="{Binding Source={x:Reference starThreeC2}, Path=IsStarred}" />
+      </Grid>
+
+      <Grid>
+        <Grid.Behaviors>
+          <behaviours:StarBehaviorUsab
+              x:Name="starFourC2" />
+        </Grid.Behaviors>
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+          IsVisible="{Binding Source={x:Reference starFourC2}, Path=IsStarred}" />
+      </Grid>
+
+      <Grid>
+        <Grid.Behaviors>
+          <behaviours:StarBehaviorUsab
+              x:Name="starFiveC2" />
+        </Grid.Behaviors>
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+          IsVisible="{Binding Source={x:Reference starFiveC2}, Path=IsStarred}" />
+      </Grid>
+      <Label
+          Text="{Binding Source={x:Reference starFiveC2}, Path=Rating, Converter={StaticResource ratingConverterC2}}">
+      </Label>
+    </StackLayout>
+
+
+    <!--CRITÉRIO 3 - REQUISITOS-->
+    <StackLayout
+        Orientation="Horizontal" HeightRequest="40">
+      <StackLayout.Resources>
+        <ResourceDictionary>
+          <local:RatingConverter
+              x:Key="ratingConverterC3" />
+          <Style
+              TargetType="Label">
+            <Setter
+              Property="HorizontalTextAlignment"
+              Value="Start" />
+            <Setter
+              Property="VerticalTextAlignment"
+              Value="Center" />
+            <Setter
+              Property="FontSize"
+              Value="12" />
+            <Setter
+              Property="FontAttributes"
+              Value="Italic" />
+            <Setter
+              Property="TextColor"
+              Value="Red" />
+          </Style>
+        </ResourceDictionary>
+      </StackLayout.Resources>
+      <Label Text="Requirements"></Label>
+      <Grid>        
+        <Grid.Behaviors>
+          <behaviours:StarBehaviorReq
+              x:Name="starOneC3" />
+        </Grid.Behaviors>
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+          IsVisible="{Binding Source={x:Reference starOneC3}, Path=IsStarred}" />
+      </Grid>
+
+      <Grid>
+        <Grid.Behaviors>
+          <behaviours:StarBehaviorReq
+              x:Name="starTwoC3" />
+        </Grid.Behaviors>
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+          IsVisible="{Binding Source={x:Reference starTwoC3}, Path=IsStarred}" />
+      </Grid>
+
+      <Grid>
+        <Grid.Behaviors>
+          <behaviours:StarBehaviorReq
+              x:Name="starThreeC3" />
+        </Grid.Behaviors>
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+          IsVisible="{Binding Source={x:Reference starThreeC3}, Path=IsStarred}" />
+      </Grid>
+
+      <Grid>
+        <Grid.Behaviors>
+          <behaviours:StarBehaviorReq
+              x:Name="starFourC3" />
+        </Grid.Behaviors>
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+          IsVisible="{Binding Source={x:Reference starFourC3}, Path=IsStarred}" />
+      </Grid>
+
+      <Grid>
+        <Grid.Behaviors>
+          <behaviours:StarBehaviorReq
+              x:Name="starFiveC3" />
+        </Grid.Behaviors>
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+          IsVisible="{Binding Source={x:Reference starFiveC3}, Path=IsStarred}" />
+      </Grid>
+      <Label
+          Text="{Binding Source={x:Reference starFiveC3}, Path=Rating, Converter={StaticResource ratingConverterC3}}">
+      </Label>
+    </StackLayout>
+
+      
+    <!--CRITÉRIO 4 - FUNCIONALIDADE-->
+    <StackLayout
+        Orientation="Horizontal" HeightRequest="40">
+      <StackLayout.Resources>
+        <ResourceDictionary>
+          <local:RatingConverter
+              x:Key="ratingConverterC4" />
+          <Style
+              TargetType="Label">
+            <Setter
+              Property="HorizontalTextAlignment"
+              Value="Start" />
+            <Setter
+              Property="VerticalTextAlignment"
+              Value="Center" />
+            <Setter
+              Property="FontSize"
+              Value="12" />
+            <Setter
+              Property="FontAttributes"
+              Value="Italic" />
+            <Setter
+              Property="TextColor"
+              Value="Red" />
+          </Style>
+        </ResourceDictionary>
+      </StackLayout.Resources>
+      <Label Text="Funcionality   "></Label>
+      <Grid>
+        <Grid.Behaviors>
+          <behaviours:StarBehaviorFun
+              x:Name="starOneC4" />
+        </Grid.Behaviors>
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+          IsVisible="{Binding Source={x:Reference starOneC4}, Path=IsStarred}" />
+      </Grid>
+
+      <Grid>
+        <Grid.Behaviors>
+          <behaviours:StarBehaviorFun
+              x:Name="starTwoC4" />
+        </Grid.Behaviors>
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+          IsVisible="{Binding Source={x:Reference starTwoC4}, Path=IsStarred}" />
+      </Grid>
+
+      <Grid>
+        <Grid.Behaviors>
+          <behaviours:StarBehaviorFun
+              x:Name="starThreeC4" />
+        </Grid.Behaviors>
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+          IsVisible="{Binding Source={x:Reference starThreeC4}, Path=IsStarred}" />
+      </Grid>
+
+      <Grid>
+        <Grid.Behaviors>
+          <behaviours:StarBehaviorFun
+              x:Name="starFourC4" />
+        </Grid.Behaviors>
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+          IsVisible="{Binding Source={x:Reference starFourC4}, Path=IsStarred}" />
+      </Grid>
+
+      <Grid>
+        <Grid.Behaviors>
+          <behaviours:StarBehaviorFun
+              x:Name="starFiveC4" />
+        </Grid.Behaviors>
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+        <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+          IsVisible="{Binding Source={x:Reference starFiveC4}, Path=IsStarred}" />
+      </Grid>
+      <Label
+          Text="{Binding Source={x:Reference starFiveC4}, Path=Rating, Converter={StaticResource ratingConverterC4}}">
+      </Label>
+    </StackLayout>
+
+
+    <!--CRITÉRIO 4 - RESULTADOS-->
+    <!--
+      <StackLayout
+          Orientation="Horizontal" HeightRequest="40">
+        <StackLayout.Resources>
+          <ResourceDictionary>
+            <local:RatingConverter
+                x:Key="ratingConverterC4" />
+            <Style
+                TargetType="Label">
+              <Setter
+                Property="HorizontalTextAlignment"
+                Value="Start" />
+              <Setter
+                Property="VerticalTextAlignment"
+                Value="Center" />
+              <Setter
+                Property="FontSize"
+                Value="12" />
+              <Setter
+                Property="FontAttributes"
+                Value="Italic" />
+              <Setter
+                Property="TextColor"
+                Value="Red" />
+            </Style>
+          </ResourceDictionary>
+        </StackLayout.Resources>
+        <Label Text="Funcionality   "></Label>
+        <Grid>
+          <Grid.Behaviors>
+            <behaviours:StarBehaviorRes
+                x:Name="starOneC5" />
+          </Grid.Behaviors>
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+            IsVisible="{Binding Source={x:Reference starOneC4}, Path=IsStarred}" />
+        </Grid>
+
+        <Grid>
+          <Grid.Behaviors>
+            <behaviours:StarBehaviorRes
+                x:Name="starTwoC5" />
+          </Grid.Behaviors>
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+            IsVisible="{Binding Source={x:Reference starTwoC4}, Path=IsStarred}" />
+        </Grid>
+
+        <Grid>
+          <Grid.Behaviors>
+            <behaviours:StarBehaviorRes
+                x:Name="starThreeC5" />
+          </Grid.Behaviors>
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+            IsVisible="{Binding Source={x:Reference starThreeC4}, Path=IsStarred}" />
+        </Grid>
+
+        <Grid>
+          <Grid.Behaviors>
+            <behaviours:StarBehaviorRes
+                x:Name="starFourC5" />
+          </Grid.Behaviors>
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+            IsVisible="{Binding Source={x:Reference starFourC4}, Path=IsStarred}" />
+        </Grid>
+
+        <Grid>
+          <Grid.Behaviors>
+            <behaviours:StarBehaviorRes
+                x:Name="starFiveC5" />
+          </Grid.Behaviors>
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_outline.png" />
+          <Image Source="pack://application:,,,/{AssemblyName};component/star_selected.png"
+            IsVisible="{Binding Source={x:Reference starFiveC4}, Path=IsStarred}" />
+        </Grid>
+        <Label
+            Text="{Binding Source={x:Reference starFiveC4}, Path=Rating, Converter={StaticResource ratingConverterC4}}">
+        </Label>
+      </StackLayout>
+
+-->
+
+
+      <Button x:Name="btnBack" Text="Back to Menu" Command="{Binding BackCommand}"></Button>  
+
+    </StackLayout>
+
+  </ContentPage.Content> 
+</ContentPage>
+
+
+
+
+
+
+
+
+

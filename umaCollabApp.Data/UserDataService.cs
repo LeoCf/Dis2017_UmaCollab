@@ -35,12 +35,8 @@ namespace umaCollabApp.Data
         // atualizar user
         public void Update(User user)
         {
-            
             _connection.Update(user);
         }
-
-        //
-    
         
         // obter todos os users
         public IList<User> Select()
@@ -48,10 +44,5 @@ namespace umaCollabApp.Data
             return _connection.Table<User>().ToList();
         }
 
-        public void Login(User user)
-        {
-            user.Password
-            _connection.;
-        }
     }
 }

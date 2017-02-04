@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="umaCollabApp.Views.HomeViewPage"
+             Title="Home">
+<ScrollView> 
+ <StackLayout Padding="20">
+    <Button x:Name="btnUsers" Text ="Users" Command="{Binding UsersCommand}" ></Button>
+    <Button x:Name="btnProjects" Text ="Projects" Command="{Binding ProjectsCommand}" ></Button>
+    <Button x:Name="btnTeams" Text ="Teams" Command="{Binding TeamsCommand}" ></Button>
+
+   
+ </StackLayout>
+</ScrollView>
+</ContentPage>

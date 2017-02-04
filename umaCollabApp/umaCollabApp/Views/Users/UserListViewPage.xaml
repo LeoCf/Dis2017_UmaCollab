@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="umaCollabApp.Views.Users.UserListViewPage"
+             Title="Users List">
+  
+  <ScrollView>  
+    <StackLayout Padding="20">
+      <ListView x:Name="itemListView" ItemsSource="{Binding Entities}" SelectedItem="{Binding CurrentItem}">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <Label Text="{Binding FirstName}"></Label>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+      </ListView>
+      <Button x:Name="btnBack" Text="Back to Menu" Command="{Binding BackCommand}"></Button>
+    </StackLayout>
+  </ScrollView>  
+</ContentPage>
