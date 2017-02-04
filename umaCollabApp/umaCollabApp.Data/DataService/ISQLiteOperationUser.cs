@@ -15,6 +15,8 @@ namespace umaCollabApp.Data.DataService
 
         void Update(User user);
 
+        bool Login(User user);
+
         IList<User> Select();
 
 

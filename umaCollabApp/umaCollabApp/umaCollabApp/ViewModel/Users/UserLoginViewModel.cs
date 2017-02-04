@@ -38,11 +38,17 @@ namespace umaCollabApp.ViewModel.Users
                 {
                     try
                     {
-                        CurrentEntity.Validate();
-                        //_dataService.Login(CurrentEntity); FALTA IMPLEMENTAR QUERY À BD PARA VALIDAR LOGIN
 
-                        Message.DisplayAlert("Success", "You are logged in!", "Ok");
-                        Navigation.PushAsync(new ProjectListViewPage());
+                        if (_dataService.Login(CurrentEntity))
+                        {
+                            Message.DisplayAlert("Success", "You are logged in!", "Ok");
+                            Navigation.PushAsync(new ProjectListViewPage());
+                        }
+                        else
+                            Message.DisplayAlert("Error", "Your credentials don´t match any user!", "Ok");
+                             
+
+                        
                     }
                     catch (MandatoryException mandatory)
                     {

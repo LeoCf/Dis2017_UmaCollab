@@ -37,6 +37,24 @@ namespace umaCollabApp.Data
         {
             _connection.Update(user);
         }
+
+        public bool Login(User user)
+        {
+            string userEmail = user.Email;
+            string userPassword = user.Password;
+
+            var dados = _connection.Table<User>();
+            var verification = dados.Where(x => x.Email == userEmail && x.Password == userPassword).FirstOrDefault();
+            if (verification != null)
+            {
+                return true;
+            }
+            else
+                return false;
+
+
+            
+        }
         
         // obter todos os users
         public IList<User> Select()
