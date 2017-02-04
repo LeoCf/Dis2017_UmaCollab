@@ -71,8 +71,7 @@ namespace umaCollabApp.ViewModel.Users
         private void SetVisibility(bool isNew)
         {
             SaveVisibility = isNew;
-            DeleteVisibility = isNew;
-            UpdateVisibility = isNew;
+           
         }
 
 
@@ -105,6 +104,7 @@ namespace umaCollabApp.ViewModel.Users
             }
         }
 
+        /*
         public ICommand DeleteCommand
         {
             get
@@ -135,7 +135,7 @@ namespace umaCollabApp.ViewModel.Users
                 }));
             }
         }
-
+        
         public ICommand UpdateCommand
         { 
             get
@@ -162,5 +162,6 @@ namespace umaCollabApp.ViewModel.Users
                 }));
             }
         }
+        */
     }
 }

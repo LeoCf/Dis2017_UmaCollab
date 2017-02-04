@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using SQLite.Net.Attributes;
 using umaCollabApp.entities.Base;
 using umaCollabApp.entities.Exceptions;
+using SQLiteNetExtensions.Attributes;
 
 namespace umaCollabApp.Entities
 {
@@ -82,6 +83,15 @@ namespace umaCollabApp.Entities
                 RaisedPropertyChanged(() => Duration);
             }
         }
+
+
+        [Column("MANAGERID")]
+        [ForeignKey(typeof(User))]
+        [MaxLength(20)]
+        public int managerID { get; set; }
+
+        [OneToMany]
+        public List<User> User { get; set; }
 
 
         public override void Validate()

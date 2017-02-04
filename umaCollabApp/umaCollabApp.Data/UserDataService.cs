@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using SQLite.Net;
 using umaCollabApp.Data.DataService;
 using umaCollabApp.Entities;
+using umaCollabApp;
 
 
 namespace umaCollabApp.Data
@@ -42,18 +43,26 @@ namespace umaCollabApp.Data
         {
             string userEmail = user.Email;
             string userPassword = user.Password;
+               
 
             var dados = _connection.Table<User>();
             var verification = dados.Where(x => x.Email == userEmail && x.Password == userPassword).FirstOrDefault();
             if (verification != null)
             {
+
                 return true;
             }
             else
                 return false;
+                     
+        }
 
+        public int GetCurrentUser(User user)
+        {
+            var dados = _connection.Table<User>();
+            var currentUser = dados.Where(x => x.Email == user.Email).FirstOrDefault();
 
-            
+            return currentUser.UserId;
         }
         
         // obter todos os users

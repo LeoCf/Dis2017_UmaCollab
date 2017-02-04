@@ -22,6 +22,7 @@ namespace umaCollabApp.Entities
         private string _password;
         private string _confirmPassword;
 
+
         [Column("USERID")]
         [AutoIncrement, PrimaryKey]
         public int UserId { get; set; }
@@ -100,11 +101,15 @@ namespace umaCollabApp.Entities
         }
 
 
+    
+
+
         // propriedade virtual usada para ciar a relação um para muitos
         // TeamMembers é o lado "muitos", é uma ICollection (lista genérica). 
+        /*
         [OneToMany]
         public virtual ICollection<TeamMember> TeamMembers { get; set; }
-
+        */
 
 
         public override void Validate()

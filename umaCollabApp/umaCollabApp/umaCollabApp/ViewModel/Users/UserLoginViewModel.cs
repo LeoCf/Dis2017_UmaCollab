@@ -6,6 +6,7 @@ using umaCollabApp.entities.Exceptions;
 using umaCollabApp.Entities;
 using umaCollabApp.ViewModel.Base;
 using umaCollabApp.Views.Projects;
+using umaCollabApp;
 using Xamarin.Forms;
 
 
@@ -15,6 +16,8 @@ namespace umaCollabApp.ViewModel.Users
     {
         private ICommand _loginCommand;
         private UserDataService _dataService;
+        
+        
 
 
         public UserLoginViewModel()
@@ -42,6 +45,8 @@ namespace umaCollabApp.ViewModel.Users
                         if (_dataService.Login(CurrentEntity))
                         {
                             Message.DisplayAlert("Success", "You are logged in!", "Ok");
+                            GlobalSettings.currentUserId=_dataService.GetCurrentUser(CurrentEntity);
+                                    
                             Navigation.PushAsync(new ProjectListViewPage());
                         }
                         else

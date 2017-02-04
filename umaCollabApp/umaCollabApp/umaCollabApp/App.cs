@@ -9,6 +9,7 @@ namespace umaCollabApp
 {
     public class App : Application
     {
+        public static int currentUserId { get; set; }
         public App()
         {
             MainPage = new NavigationPage(new StartViewPage());

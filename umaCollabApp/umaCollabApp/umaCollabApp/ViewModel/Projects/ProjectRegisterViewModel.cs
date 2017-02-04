@@ -19,6 +19,7 @@ namespace umaCollabApp.ViewModel.Projects
         private bool _saveVisibility;
         private bool _deleteVisibility;
         private bool _updateVisibility;
+      
 
         public bool SaveVisibility
         {
@@ -79,7 +80,7 @@ namespace umaCollabApp.ViewModel.Projects
                     try
                     {
                         CurrentProject.Validate();
-                        _dataService.Save(CurrentProject);
+                        _dataService.Save(CurrentProject,GlobalSettings.currentUserId);
 
                         Message.DisplayAlert("Success", "Project registered!", "Ok");
                         Navigation.PushAsync(new ProjectListViewPage());

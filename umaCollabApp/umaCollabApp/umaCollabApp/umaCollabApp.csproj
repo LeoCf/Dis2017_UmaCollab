@@ -47,6 +47,7 @@
     <Compile Include="Behaviours\StarBehaviourFunc.cs" />
     <Compile Include="Behaviours\StarBehaviourReq.cs" />
     <Compile Include="Behaviours\StarBehaviourUsab.cs" />
+    <Compile Include="GlobalSettings.cs" />
     <Compile Include="ViewModel\Projects\ProjectRateViewModel.cs" />
     <Compile Include="ViewModel\Projects\ProjectsViewModel.cs" />
     <Compile Include="ViewModel\StartViewModel.cs" />

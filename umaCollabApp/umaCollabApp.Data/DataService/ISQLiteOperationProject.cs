@@ -9,7 +9,7 @@ namespace umaCollabApp.Data.DataService
 {
     public interface ISQLiteOperationProject
     {
-        void Save(Project project);
+        void Save(Project project,int userId);
 
         void Delete(Project project);
 
