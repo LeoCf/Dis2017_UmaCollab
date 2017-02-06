@@ -9,8 +9,10 @@ using Xamarin.Forms;
 
 namespace umaCollabApp
 {
+    #region singleton;
     class GlobalSettings : Application
     {
         public static int currentUserId { get; set; } 
     }
+    #endregion 
 }

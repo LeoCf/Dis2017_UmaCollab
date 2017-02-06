@@ -1,4 +1,9 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using umaCollabApp.Data;
 using umaCollabApp.Data.DataService;
@@ -10,20 +15,19 @@ using Xamarin.Forms;
 
 namespace umaCollabApp.ViewModel.Projects
 {
-    class ProjectListViewModel : ViewModelList<Project>
+    class ProjectListByUserViewModel : ViewModelList<Project>
     {
-      
+        public ObservableCollection<Project> projectUser { get; set; }
         private ProjectDataService _dataService;
         private ICommand _backCommand;
         private ICommand _rateCommand;
         private Project _currentItem;
 
 
-        public ProjectListViewModel()
+        public ProjectListByUserViewModel()
         {
             _dataService = new ProjectDataService(DependencyService.Get<ISQLite>().GetConnection());
-            Entities = new ObservableCollection<Project>(_dataService.Select());
-          
+            projectUser = new ObservableCollection<Project>(_dataService.SelectByUser(GlobalSettings.currentUserId));
 
         }
 
@@ -36,7 +40,7 @@ namespace umaCollabApp.ViewModel.Projects
                 RaisedPropertyChanged(() => CurrentItem);
 
                 if (_currentItem != null)
-                    Navigation.PushAsync(new ProjectRegisterViewPage(_currentItem));            
+                    Navigation.PushAsync(new ProjectRegisterViewPage(_currentItem));
             }
         }
 
@@ -51,18 +55,5 @@ namespace umaCollabApp.ViewModel.Projects
                 }));
             }
         }
-
-        public ICommand RateCommand
-        {
-            get
-            {
-                return _rateCommand ?? (_rateCommand = new Command(() =>
-                {
-                    Navigation.PushAsync(new RatePage());
-                }));
-            }
-        }
-
-
     }
 }

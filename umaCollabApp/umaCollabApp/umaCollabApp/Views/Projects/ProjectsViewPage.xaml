@@ -9,6 +9,7 @@
 
       <Button x:Name="btnProjectRegister" Text ="Project Register" Command="{Binding ProjectRegisterCommand}" ></Button>
       <Button x:Name="btnListAllProjects" Text ="List All Projects" Command="{Binding ProjectListCommand}" ></Button>
+      <Button x:Name="btnListMyProjects" Text ="List My Projects" Command="{Binding ProjectListByUserCommand}" ></Button>
 
     </StackLayout>
   </ScrollView>

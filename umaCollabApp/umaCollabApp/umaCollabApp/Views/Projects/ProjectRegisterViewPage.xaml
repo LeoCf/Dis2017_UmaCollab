@@ -20,8 +20,7 @@
 
 
     <Button x:Name="btnSave" Text="Save" IsVisible="{Binding SaveVisibility}" Command="{Binding SaveCommand}"></Button>
-    <Button x:Name="btnDelete" Text="Delete" IsVisible="{Binding DeleteVisibility}" Command="{Binding DeleteCommand}"></Button>
-    <Button x:Name="btnUpdate" Text="Update" IsVisible="{Binding UpdateVisibility}" Command="{Binding UpdateCommand}"></Button>
+  
 
   </StackLayout>
 </ScrollView>  

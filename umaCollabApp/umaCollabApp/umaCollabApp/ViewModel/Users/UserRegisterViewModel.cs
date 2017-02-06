@@ -17,8 +17,6 @@ namespace umaCollabApp.ViewModel.Users
     public class UserRegisterViewModel : ViewModelBase<User>
     {
         private ICommand _saveCommand;
-        private ICommand _deleteCommand;
-        private ICommand _updateCommand;
         private UserDataService _dataService;
         private bool _saveVisibility;
         private bool _deleteVisibility;

@@ -16,5 +16,7 @@ namespace umaCollabApp.Data.DataService
         void Update(Project project);
 
         IList<Project> Select();
+
+        IList<Project> SelectByUser(int usedId);
     }
 }

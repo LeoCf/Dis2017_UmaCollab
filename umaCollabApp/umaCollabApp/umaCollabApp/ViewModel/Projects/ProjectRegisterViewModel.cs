@@ -13,8 +13,6 @@ namespace umaCollabApp.ViewModel.Projects
     class ProjectRegisterViewModel : ViewModelBase<Project>
     {
         private ICommand _saveCommand;
-        private ICommand _deleteCommand;
-        private ICommand _updateCommand;
         private ProjectDataService _dataService;
         private bool _saveVisibility;
         private bool _deleteVisibility;
@@ -99,62 +97,7 @@ namespace umaCollabApp.ViewModel.Projects
             }
         }
 
-        public ICommand DeleteCommand
-        {
-            get
-            {
-                return _deleteCommand ?? (_deleteCommand = new Command(async () =>
-                {
-                    try
-                    {
-                        var action = await Message.DisplayActionSheet("Do you really want to delete this project?", "Cancel", null, "Yes",
-                            "No");
-                        switch (action)
-                        {
-                            case "Yes":
-                                _dataService.Delete(CurrentProject);
-                                await Message.DisplayAlert("Success", "Project has been deleted.", "Ok");
-                                await Navigation.PushAsync(new ProjectListViewPage());
-                                break;
 
-                            case "No":
-                            default:
-                                break;
-                        }
-                    }
-                    catch (Exception)
-                    {
-                        await Message.DisplayAlert("Error", "Error on deleting the registry", "Ok");
-                    }
-                }));
-            }
-        }
 
-        public ICommand UpdateCommand
-        {
-            get
-            {
-                return _updateCommand ?? (_updateCommand = new Command(() =>
-                {
-                    try
-                    {
-                        CurrentProject.Validate();
-
-                        _dataService.Update(CurrentProject);
-                        Message.DisplayAlert("Success", "Project updated!", "Ok");
-                        Navigation.PushAsync(new ProjectListViewPage());
-                    }
-                    catch (MandatoryException mandatory)
-                    {
-                        Message.DisplayAlert("Error", mandatory.Message, "Ok");
-                    }
-                    catch (Exception)
-                    {
-                        Message.DisplayAlert("Error", "Error on updating the registry", "Ok");
-                    }
-
-                }));
-            }
-        }
     }
 }

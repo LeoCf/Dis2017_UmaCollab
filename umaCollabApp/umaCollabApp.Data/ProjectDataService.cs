@@ -50,6 +50,11 @@ namespace umaCollabApp.Data
             return _connection.Table<Project>().ToList();
         }
 
+        public IList<Project> SelectByUser(int userId)
+        {
+            return _connection.Table<Project>().Where(x => x.managerID == userId).ToList();
+        }
+
 
     }
 }

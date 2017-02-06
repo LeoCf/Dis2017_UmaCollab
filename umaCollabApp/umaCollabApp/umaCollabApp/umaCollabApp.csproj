@@ -48,6 +48,7 @@
     <Compile Include="Behaviours\StarBehaviourReq.cs" />
     <Compile Include="Behaviours\StarBehaviourUsab.cs" />
     <Compile Include="GlobalSettings.cs" />
+    <Compile Include="ViewModel\Projects\ProjectListByUserViewModel.cs" />
     <Compile Include="ViewModel\Projects\ProjectRateViewModel.cs" />
     <Compile Include="ViewModel\Projects\ProjectsViewModel.cs" />
     <Compile Include="ViewModel\StartViewModel.cs" />
@@ -61,6 +62,9 @@
       <DependentUpon>HomeViewPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\IMessage.cs" />
+    <Compile Include="Views\Projects\ProjectListByUserViewPage.xaml.cs">
+      <DependentUpon>ProjectListByUserViewPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Teams\SelectMemberListPage.xaml.cs">
       <DependentUpon>SelectMemberListPage.xaml</DependentUpon>
     </Compile>
@@ -264,6 +268,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\Teams\TeamDetailsViewPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Projects\ProjectListByUserViewPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

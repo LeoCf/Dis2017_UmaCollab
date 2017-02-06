@@ -14,6 +14,7 @@ namespace umaCollabApp.ViewModel.Projects
     {
         private ICommand _projectRegisterCommand;
         private ICommand _projectListCommand;
+        private ICommand _projectListByUserCommand;
 
         public ICommand ProjectRegisterCommand
         {
@@ -35,6 +36,17 @@ namespace umaCollabApp.ViewModel.Projects
                 return _projectListCommand ?? (_projectListCommand = new Command(() =>
                 {
                     Navigation.PushAsync(new ProjectListViewPage());
+                }));
+            }
+        }
+
+        public ICommand ProjectListByUserCommand
+        {
+            get
+            {
+                return _projectListByUserCommand ?? (_projectListByUserCommand = new Command(() =>
+                {
+                    Navigation.PushAsync(new ProjectListByUserViewPage());
                 }));
             }
         }

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="umaCollabApp.Views.Projects.ProjectListViewPage"
-             Title="Projects List23">
-  
+             x:Class="umaCollabApp.Views.Projects.ProjectListUserViewPage">
+  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+
   <ScrollView>
     <StackLayout Padding="20">
       <ListView x:Name="itemListView" ItemsSource="{Binding Entities}" SelectedItem="{Binding CurrentItem}" >
@@ -23,11 +23,6 @@
                 <Label x:Name="ProjectName" Grid.Row="0" Grid.Column="0" Text="{Binding Name}" LineBreakMode="TailTruncation"></Label>
                 <Label x:Name="ProjectId" Grid.Row="1" Grid.Column="0" Text="{Binding Id}" Font="Small"  TextColor="Gray" LineBreakMode="TailTruncation"></Label>
 
-                <Button  Text="Rate" x:Name="btnRate" Grid.Row="0" Grid.RowSpan="2" Grid.Column="2" Grid.ColumnSpan="2"
-                        BindingContext="{Binding Source={x:Reference itemListView}, Path=BindingContext}"
-                        Command="{Binding RateCommand}"
-                        CommandParameter="{Binding Source={x:Reference ProjectId}, Path=BindingContext}">
-                </Button>
               </Grid>
             </ViewCell>
           </DataTemplate>
