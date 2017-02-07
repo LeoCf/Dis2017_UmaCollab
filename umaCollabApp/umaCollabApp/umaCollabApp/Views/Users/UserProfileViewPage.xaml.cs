@@ -1,18 +1,19 @@
 ﻿using umaCollabApp.Entities;
 using umaCollabApp.Interfaces;
-using umaCollabApp.ViewModel.Teams;
+using umaCollabApp.ViewModel.Users;
 
-namespace umaCollabApp.Views.Teams
+namespace umaCollabApp.Views.Users
 {
-    public partial class TeamDetailsViewPage : IMessage
+    public partial class UserProfileViewPage : IMessage
     {
-        public TeamDetailsViewPage(User CurrentItem)
+        public UserProfileViewPage(User user)       
         {
             InitializeComponent();
-            var viewModel = new TeamDetailsViewModel(CurrentItem);
+            var viewModel = new UserProfileViewModel();
             viewModel.Navigation = this.Navigation;
             viewModel.Message = this;
             BindingContext = viewModel;
         }
     }
 }
+

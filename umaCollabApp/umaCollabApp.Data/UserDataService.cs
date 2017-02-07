@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using SQLite.Net;
 using umaCollabApp.Data.DataService;
 using umaCollabApp.Entities;
-using umaCollabApp;
-
 
 namespace umaCollabApp.Data
 {
@@ -42,21 +39,16 @@ namespace umaCollabApp.Data
         public bool Login(User user)
         {
             string userEmail = user.Email;
-            string userPassword = user.Password;
-               
-
+            string userPassword = user.Password;            
             var dados = _connection.Table<User>();
             var verification = dados.Where(x => x.Email == userEmail && x.Password == userPassword).FirstOrDefault();
             if (verification != null)
-            {
-
                 return true;
-            }
             else
-                return false;
-                     
+                return false;                    
         }
 
+        // obter o Id do user atual
         public int GetCurrentUser(User user)
         {
             var dados = _connection.Table<User>();
@@ -69,6 +61,17 @@ namespace umaCollabApp.Data
         public IList<User> Select()
         {
             return _connection.Table<User>().ToList();
+        }
+
+        // obter um user específico por Id
+        public IList<User> Select(int userId)
+        {
+            return _connection.Table<User>().Where(x => x.UserId == userId).ToList();
+        }
+
+        public IList<User> Select(User user)
+        {
+            return _connection.Table<User>().Where(x => x == user).ToList();
         }
 
     }

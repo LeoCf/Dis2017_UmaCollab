@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 using umaCollabApp.Data;
 using umaCollabApp.Data.DataService;
 using umaCollabApp.entities.Exceptions;
 using umaCollabApp.Entities;
 using umaCollabApp.ViewModel.Base;
+using umaCollabApp.Views;
 using umaCollabApp.Views.Users;
 using Xamarin.Forms;
 
@@ -17,74 +14,32 @@ namespace umaCollabApp.ViewModel.Users
     public class UserRegisterViewModel : ViewModelBase<User>
     {
         private ICommand _saveCommand;
+        private ICommand _deleteCommand;
+        private ICommand _updateCommand;
+        private ICommand _backCommand;
         private UserDataService _dataService;
-        private bool _saveVisibility;
-        private bool _deleteVisibility;
-        private bool _updateVisibility;
-
-        public bool SaveVisibility
-        {
-            get { return _saveVisibility; }
-            set
-            {
-                _saveVisibility = value;
-                RaisedPropertyChanged(() => SaveVisibility);
-            }
-        }
-
-        public bool DeleteVisibility
-        {
-            get { return _deleteVisibility; }
-            set
-            {
-                _deleteVisibility = value;
-                RaisedPropertyChanged(() => DeleteVisibility);
-            }
-        }
-
-        public bool UpdateVisibility
-        {
-            get { return _updateVisibility; }
-            set
-            {
-                _updateVisibility = value;
-                RaisedPropertyChanged(() => UpdateVisibility);
-            }
-        }
 
         public UserRegisterViewModel()
         {
             _dataService = new UserDataService(DependencyService.Get<ISQLite>().GetConnection());
-            SetVisibility(CurrentEntity.UserId == 0);
         }
 
         public UserRegisterViewModel(User user)
-            :this() //chama o construtor anterior
+            : this() //chama o construtor anterior
         {
             CurrentEntity = user;
-            SetVisibility(CurrentEntity.UserId == 0);
         }
-
-
-        private void SetVisibility(bool isNew)
-        {
-            SaveVisibility = isNew;
-           
-        }
-
-
 
         public ICommand SaveCommand
         {
             get
             {
-                return _saveCommand ?? (_saveCommand = new Command(()=>
+                return _saveCommand ?? (_saveCommand = new Command(() =>
                 {
                     try
                     {
                         CurrentEntity.Validate();
                         _dataService.Save(CurrentEntity);
-
                         Message.DisplayAlert("Success", "You are registered!", "Ok");
                         Navigation.PushAsync(new UserListViewPage());
                     }
@@ -94,15 +49,12 @@ namespace umaCollabApp.ViewModel.Users
                     }
                     catch (Exception)
                     {
-
                         Message.DisplayAlert("Error", "Error on saving the registry", "Ok");
                     }
- 
                 }));
             }
         }
 
-        /*
         public ICommand DeleteCommand
         {
             get
@@ -133,33 +85,41 @@ namespace umaCollabApp.ViewModel.Users
                 }));
             }
         }
-        
+
         public ICommand UpdateCommand
-        { 
+        {
             get
             {
                 return _updateCommand ?? (_updateCommand = new Command(() =>
                 {
                     try
                     {
-                            CurrentEntity.Validate();
-
-                            _dataService.Update(CurrentEntity);
-                            Message.DisplayAlert("Success", "User updated!", "Ok");
-                            Navigation.PushAsync(new UserListViewPage());
-                        }
-                        catch (MandatoryException mandatory)
-                        {
-                            Message.DisplayAlert("Error", mandatory.Message, "Ok");
-                        }
+                        CurrentEntity.Validate();
+                        _dataService.Update(CurrentEntity);
+                        Message.DisplayAlert("Success", "User updated!", "Ok");
+                        Navigation.PushAsync(new UserListViewPage());
+                    }
+                    catch (MandatoryException mandatory)
+                    {
+                        Message.DisplayAlert("Error", mandatory.Message, "Ok");
+                    }
                     catch (Exception)
-                        {
-                            Message.DisplayAlert("Error", "Error on updating the registry", "Ok");
-                        }
-                    
+                    {
+                        Message.DisplayAlert("Error", "Error on updating the registry", "Ok");
+                    }
                 }));
             }
         }
-        */
+
+        public ICommand BackCommand
+        {
+            get
+            {
+                return _backCommand ?? (_backCommand = new Command(() =>
+                {
+                    Navigation.PushAsync(new HomeViewPage());
+                }));
+            }
+        }
     }
 }

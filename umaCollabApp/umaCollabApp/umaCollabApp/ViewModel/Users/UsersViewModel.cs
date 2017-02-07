@@ -1,19 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
+﻿using System.Windows.Input;
+using umaCollabApp.Entities;
 using umaCollabApp.ViewModel.Base;
 using umaCollabApp.Views.Users;
 using Xamarin.Forms;
 
 namespace umaCollabApp.ViewModel.Users
 {
-    class UsersViewModel : ViewModelBase
+    class UsersViewModel : ViewModelBase<User>
     {
         private ICommand _userListCommand;
+        private ICommand _userProfileCommand;
 
+        public ICommand UserProfileCommand
+        {
+            get
+            {
+                return _userProfileCommand ?? (_userProfileCommand = new Command(() =>
+                {
+                    Navigation.PushAsync(new UserProfileViewPage(CurrentEntity));
+                }));
+            }
+        }
 
         public ICommand UserListCommand
         {
@@ -25,6 +32,5 @@ namespace umaCollabApp.ViewModel.Users
                 }));
             }
         }
-
     }
 }

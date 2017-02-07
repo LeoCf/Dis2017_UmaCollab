@@ -23,7 +23,6 @@ namespace umaCollabApp.ViewModel
             }
         }
 
-
         public ICommand UserLoginCommand
         {
             get
@@ -35,7 +34,6 @@ namespace umaCollabApp.ViewModel
             }
         }
 
-
         public ICommand UserRegisterCommand
         {
             get
@@ -46,6 +44,5 @@ namespace umaCollabApp.ViewModel
                 }));
             }
         }     
-
     }
 }

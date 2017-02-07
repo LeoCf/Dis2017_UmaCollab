@@ -1,33 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:behaviours="clr-namespace:umaCollabApp.Behaviours;assembly=umaCollabApp"
              x:Class="umaCollabApp.Views.Teams.TeamDetailsViewPage"
              Title="Team Details">
-
-  <!--OBTER TEAM NAME E MEMBERS DESSA TEAM COM BINDING...ver binding contexts e bindable-->
-
   <ScrollView>
     <StackLayout Padding="20">
-          
-      <!--<ListView x:Name="itemListView" ItemsSource="{Binding Entities}" SelectedItem="{Binding CurrentItem, Mode=TwoWay}"
-      
-       >-->
-      
-      <ListView
-        x:Name="TeamDetailsListView"
-        behaviours:ListViewAttachedBehaviour.Command="{Binding ItemSelectedCommand}"
-        ItemsSource="{Binding Entities}">
-      
-              
-        <ListView.ItemTemplate>
-          <DataTemplate>
-            <ViewCell>
-               <Label Text="{Binding FirstName}" ></Label>
-            </ViewCell>
-          </DataTemplate>
-        </ListView.ItemTemplate>
-      </ListView>
+      <Label Text="{Binding CurrentItem.FirstName}" ></Label>
       <Button x:Name="btnBack" Text="Back to Menu" Command="{Binding BackCommand}"></Button>
     </StackLayout>
   </ScrollView>

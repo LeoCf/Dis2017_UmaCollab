@@ -11,7 +11,6 @@ namespace umaCollabApp.Behaviours
         static List<StarBehaviorDesign> Behaviors = new List<StarBehaviorDesign>();
         static Dictionary<string, List<StarBehaviorDesign>> starGroups = new Dictionary<string, List<StarBehaviorDesign>>();
 
-
         // creating the static readonly bindable property
         public static readonly BindableProperty RatingProperty =
             BindableProperty.Create("Rating",
@@ -23,7 +22,6 @@ namespace umaCollabApp.Behaviours
         {
             get { return (int) GetValue(RatingProperty); }
             set { SetValue(RatingProperty, value); }
-
         }
 
         // creating the static readonly bindable property and add an event handler (propertyChanged)
@@ -47,7 +45,6 @@ namespace umaCollabApp.Behaviours
             tapRecognizer.Tapped += OnTapRecognizerTapped;
             bindable.GestureRecognizers.Add(tapRecognizer);
         }
-
 
         //event handler: determine which stars to light up and which to turn off
         static void OnIsStarredChanged(BindableObject bindable, object oldValue, object newValue)
@@ -86,14 +83,11 @@ namespace umaCollabApp.Behaviours
             }
         }
 
-
         // definition of StarBehaviorDesign
         public StarBehaviorDesign()
         {
             Behaviors.Add(this);
         }
-
-
 
         // clean up
         protected override void OnDetachingFrom(View bindable)
@@ -101,8 +95,6 @@ namespace umaCollabApp.Behaviours
             bindable.GestureRecognizers.Remove(tapRecognizer);
             tapRecognizer.Tapped -= OnTapRecognizerTapped;
         }
-
-
 
         void OnTapRecognizerTapped(object sender, EventArgs args)
         {

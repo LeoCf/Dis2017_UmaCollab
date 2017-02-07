@@ -1,8 +1,5 @@
-﻿
-
-using System.Windows.Input;
+﻿using System.Windows.Input;
 using umaCollabApp.ViewModel.Base;
-using umaCollabApp.Views;
 using umaCollabApp.Views.Projects;
 using umaCollabApp.Views.Teams;
 using umaCollabApp.Views.Users;
@@ -14,10 +11,7 @@ namespace umaCollabApp.ViewModel
     {
         private ICommand _usersCommand;
         private ICommand _projectsCommand;
-        private ICommand _statesCommand;
         private ICommand _teamsCommand;
-        private ICommand _votingsCommand;
-
 
         public ICommand UsersCommand
         {
@@ -28,8 +22,7 @@ namespace umaCollabApp.ViewModel
                     Navigation.PushAsync(new UsersViewPage());
                 }));
             }
-        }
-               
+        }            
 
         public ICommand ProjectsCommand
         {
@@ -41,8 +34,6 @@ namespace umaCollabApp.ViewModel
                 }));
             }
         }
-
-     
 
         public ICommand TeamsCommand
         {

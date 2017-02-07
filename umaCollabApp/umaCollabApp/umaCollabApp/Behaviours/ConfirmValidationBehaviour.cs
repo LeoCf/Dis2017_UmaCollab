@@ -2,7 +2,6 @@
 
 namespace umaCollabApp.Behaviours
 {
-
     // compara passwords
     class ConfirmValidationBehaviour : Behavior<Entry>
     {

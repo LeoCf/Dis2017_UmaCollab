@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="umaCollabApp.Views.Users.UserProfileViewPage"
+             Title="User Profile View Page">
+    <ScrollView>
+      <StackLayout Padding="20">
+        <ListView x:Name="itemListView" ItemsSource="{Binding CurrentUser}" SelectedItem="{Binding CurrentItem}" >
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <ViewCell>
+                <Grid Padding="5">
+                  <Grid.RowDefinitions>
+                    <RowDefinition Height="20"></RowDefinition>
+                    <RowDefinition Height="20"></RowDefinition>
+                  </Grid.RowDefinitions>
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                  </Grid.ColumnDefinitions>
+                  <Label x:Name="lblProfileFirstName" Grid.Row="0" Grid.Column="0" Text="{Binding FirstName}" LineBreakMode="TailTruncation"></Label>
+                  <Label x:Name="lblProfileLastName" Grid.Row="1" Grid.Column="0" Text="{Binding LastName}" Font="Small"  TextColor="Gray" LineBreakMode="TailTruncation"></Label>
+                </Grid>
+              </ViewCell>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+      <Button x:Name="btnBack" Text="Back to Menu" Command="{Binding BackCommand}"></Button>
+    </StackLayout>
+    </ScrollView>
+    </ContentPage>

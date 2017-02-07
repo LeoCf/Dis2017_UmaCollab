@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.ObjectModel;
 using System.Windows.Input;
 using umaCollabApp.Data;
 using umaCollabApp.Data.DataService;
@@ -20,15 +15,12 @@ namespace umaCollabApp.ViewModel.Projects
         public ObservableCollection<Project> projectUser { get; set; }
         private ProjectDataService _dataService;
         private ICommand _backCommand;
-        private ICommand _rateCommand;
         private Project _currentItem;
-
 
         public ProjectListByUserViewModel()
         {
             _dataService = new ProjectDataService(DependencyService.Get<ISQLite>().GetConnection());
             projectUser = new ObservableCollection<Project>(_dataService.SelectByUser(GlobalSettings.currentUserId));
-
         }
 
         public Project CurrentItem
@@ -43,7 +35,6 @@ namespace umaCollabApp.ViewModel.Projects
                     Navigation.PushAsync(new ProjectRegisterViewPage(_currentItem));
             }
         }
-
 
         public ICommand BackCommand
         {

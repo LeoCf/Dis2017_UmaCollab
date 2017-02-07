@@ -34,7 +34,6 @@ namespace umaCollabApp.Behaviours
                 {
                     command.Execute(e.Item);
                 }
-
             };
         }
     }

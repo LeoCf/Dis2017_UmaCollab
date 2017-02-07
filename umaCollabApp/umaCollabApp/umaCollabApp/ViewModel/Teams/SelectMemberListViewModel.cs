@@ -16,12 +16,10 @@ namespace umaCollabApp.ViewModel.Teams
         private ICommand _backCommand;
         private User _currentItem;
 
-
         public SelectMemberListViewModel()
         {
             LoadData();
         }
-
 
         public User CurrentItem
         {
@@ -34,12 +32,10 @@ namespace umaCollabApp.ViewModel.Teams
                 if (_currentItem != null)
                 {
 
-                    Navigation.PushAsync(new TeamDetailsViewPage());
-                }
-                    
+                    Navigation.PushAsync(new TeamDetailsViewPage(CurrentItem));
+                }                  
             }
         }
-
 
         private void LoadData()
         {
@@ -49,7 +45,6 @@ namespace umaCollabApp.ViewModel.Teams
             //Entities é do tipo Observable Collection, que recebe uma lista. Aqui passamos a coleção de dados.
             Entities = new ObservableCollection<User>(_dataService.Select());
         }
-
 
         public ICommand BackCommand
         {
