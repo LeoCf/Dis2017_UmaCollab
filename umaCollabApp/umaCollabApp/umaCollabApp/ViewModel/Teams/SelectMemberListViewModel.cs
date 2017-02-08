@@ -2,6 +2,7 @@
 using System.Windows.Input;
 using umaCollabApp.Data;
 using umaCollabApp.Data.DataService;
+using umaCollabApp.entities;
 using umaCollabApp.Entities;
 using umaCollabApp.ViewModel.Base;
 using umaCollabApp.Views;
@@ -15,6 +16,7 @@ namespace umaCollabApp.ViewModel.Teams
         private UserDataService _dataService;
         private ICommand _backCommand;
         private User _currentItem;
+        private Team _currentTeam;
 
         public SelectMemberListViewModel()
         {
@@ -31,7 +33,7 @@ namespace umaCollabApp.ViewModel.Teams
 
                 if (_currentItem != null)
                 {
-
+                    
                     Navigation.PushAsync(new TeamDetailsViewPage(CurrentItem));
                 }                  
             }

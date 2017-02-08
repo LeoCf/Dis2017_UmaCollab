@@ -20,6 +20,8 @@ namespace umaCollabApp.Data
             // _connection = DependencyService.Get<ISQLite>().GetConnection();
             _connection = connection;
             _connection.CreateTable<Team>();
+            _connection.CreateTable<TeamMember>();
+           
            
         }
 
@@ -41,6 +43,14 @@ namespace umaCollabApp.Data
         public IList<Team> Select()
         {
             return _connection.Table<Team>().ToList();
+        }
+
+
+        public void addUserTeam(Team team, User user)
+        {
+           var teamTable=_connection.Table<Team>();
+           var currentTeam = teamTable.Where(x => x.TeamId == team.TeamId).FirstOrDefault();
+           currentTeam.Users= team.Users = new List<User> { user };   
         }
 
 

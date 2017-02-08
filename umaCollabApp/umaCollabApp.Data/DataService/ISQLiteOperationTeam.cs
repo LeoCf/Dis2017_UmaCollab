@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using umaCollabApp.entities;
+using umaCollabApp.Entities;
 
 namespace umaCollabApp.Data.DataService
 {
@@ -12,5 +13,11 @@ namespace umaCollabApp.Data.DataService
         void Update(Team team);
 
         IList<Team> Select();
+
+        void addUserTeam(Team team, User user);
+
+       IList<User> ShowUserTeam(Team team);
+
+
     }
 }

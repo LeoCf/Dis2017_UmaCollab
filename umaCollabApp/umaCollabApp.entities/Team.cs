@@ -39,7 +39,7 @@ namespace umaCollabApp.entities
         // TeamMembers é o lado "muitos", é uma ICollection (lista genérica). 
         [ManyToMany(typeof(TeamMember))]
         public List<User> Users { get; set; }
-
+        
 
         public override void Validate()
         {
