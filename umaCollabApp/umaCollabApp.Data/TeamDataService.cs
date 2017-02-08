@@ -7,22 +7,19 @@ using SQLite.Net;
 using umaCollabApp.Data.DataService;
 using umaCollabApp.entities;
 using umaCollabApp.Entities;
+using SQLiteNetExtensions.Extensions;
 
 namespace umaCollabApp.Data
 {
     public class TeamDataService : ISQLiteOperationTeam
     {
         private SQLiteConnection _connection;
-        private SQLiteConnection sQLiteConnection;
 
         public TeamDataService(SQLiteConnection connection)
         {
-            // _connection = DependencyService.Get<ISQLite>().GetConnection();
             _connection = connection;
             _connection.CreateTable<Team>();
             _connection.CreateTable<TeamMember>();
-           
-           
         }
 
         public void Save(Team team)
@@ -45,21 +42,20 @@ namespace umaCollabApp.Data
             return _connection.Table<Team>().ToList();
         }
 
-
         public void addUserTeam(Team team, User user)
         {
-           var teamTable=_connection.Table<Team>();
-           var currentTeam = teamTable.Where(x => x.TeamId == team.TeamId).FirstOrDefault();
-           currentTeam.Users= team.Users = new List<User> { user };   
+            var teamTable = _connection.Table<Team>();
+            var currentTeam = teamTable.Where(x => x.TeamId == team.TeamId).FirstOrDefault();
+            currentTeam.Users = new List<User> { user };
+            _connection.UpdateWithChildren(currentTeam);
         }
 
 
         public IList<User> ShowUserTeam(Team team)
         {
-
             var userTable = _connection.Table<Team>();
             var currentTeam=userTable.Where(x => x.TeamId == team.TeamId).FirstOrDefault();
-            return currentTeam.Users.ToList();
+            return currentTeam.Users;
 
         }
 

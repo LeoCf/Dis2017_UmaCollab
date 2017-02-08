@@ -9,6 +9,9 @@ using umaCollabApp.ViewModel.Base;
 using umaCollabApp.Views.Teams;
 using Xamarin.Forms;
 
+/*
+ * Views models do registo de quipa faz o binding com a vista  respectiva , possuem a logica dos comandos para a navegaçao
+ */
 namespace umaCollabApp.ViewModel.Teams
 {
     class TeamRegisterViewModel : ViewModelBase<Team>

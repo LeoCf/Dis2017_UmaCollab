@@ -10,6 +10,10 @@ using umaCollabApp.Views.Teams;
 using umaCollabApp.Views.Users;
 using Xamarin.Forms;
 
+
+/*
+ * Views models da listagem das  equipas faz o binding com a vista  respectiva , possuem a logica dos comandos para a navegaçao
+ */
 namespace umaCollabApp.ViewModel.Teams
 {
     class TeamListViewModel : ViewModelList<Team>
@@ -17,24 +21,25 @@ namespace umaCollabApp.ViewModel.Teams
         private TeamDataService _dataService;
         private ICommand _selectMember;
         private ICommand _backCommand;
-
+        private Team _currentItem;
 
         public TeamListViewModel()
         {
-            LoadData();
-        }
-
-
-        private void LoadData()
-        {
             // Dependency traz uma implementação de SQLite trazendo a conexão.
             _dataService = new TeamDataService(DependencyService.Get<ISQLite>().GetConnection());
-
             //Entities é do tipo Observable Collection, que recebe uma lista. Aqui passamos a coleção de dados.
             Entities = new ObservableCollection<Team>(_dataService.Select());
         }
 
-
+        public Team CurrentItem
+        {
+            get { return _currentItem; }
+            set
+            {
+                _currentItem = value;
+                RaisedPropertyChanged(() => CurrentItem);
+            }
+        }
 
         public ICommand SelectMemberCommand
         {
@@ -42,12 +47,10 @@ namespace umaCollabApp.ViewModel.Teams
             {
                 return _selectMember ?? (_selectMember = new Command(() =>
                 {
-                    Navigation.PushAsync(new SelectMemberListPage());
+                    Navigation.PushAsync(new SelectMemberListPage(CurrentItem));
                 }));
             }
         }
-
-
 
         public ICommand BackCommand
         {

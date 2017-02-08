@@ -7,6 +7,11 @@ using System.Reflection;
 using umaCollabApp.Interfaces;
 using Xamarin.Forms;
 
+
+/*
+ * Classes abstractas  base para os ViewModels
+ */
+
 namespace umaCollabApp.ViewModel.Base
 {
     public abstract class ViewModelBase : ViewModelBase<object>
@@ -33,7 +38,6 @@ namespace umaCollabApp.ViewModel.Base
             {
                 _entity = value;
                 RaisedPropertyChanged(() => CurrentEntity);
-
             }
         }
 
@@ -44,7 +48,6 @@ namespace umaCollabApp.ViewModel.Base
             {
                 _project = value;
                 RaisedPropertyChanged(() => CurrentProject);
-
             }
         }
 
@@ -56,7 +59,6 @@ namespace umaCollabApp.ViewModel.Base
             {
                 _team = value;
                 RaisedPropertyChanged(() => CurrentTeam);
-
             }
         }
 
@@ -71,13 +73,11 @@ namespace umaCollabApp.ViewModel.Base
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-
         protected void RaisedPropertyChanged (string propertyName)
         {
             // delegate invocation
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-
 
         protected void RaisedPropertyChanged<T>(Expression<Func<T>> expression)
         {
@@ -88,9 +88,7 @@ namespace umaCollabApp.ViewModel.Base
             {
                 // delegate invocation
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyInfo.Name));
-            }
-            
+            }       
         }
-
     }
 }

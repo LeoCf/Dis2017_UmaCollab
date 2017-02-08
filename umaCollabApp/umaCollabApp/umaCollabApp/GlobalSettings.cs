@@ -9,6 +9,7 @@ using Xamarin.Forms;
 
 namespace umaCollabApp
 {
+    //Global setting guarda o id do utilizor autenticado 
     #region singleton;
     class GlobalSettings : Application
     {

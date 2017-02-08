@@ -16,9 +16,6 @@ namespace umaCollabApp.ViewModel.Users
     {
         private ICommand _loginCommand;
         private UserDataService _dataService;
-        
-        
-
 
         public UserLoginViewModel()
         {
@@ -31,7 +28,6 @@ namespace umaCollabApp.ViewModel.Users
         {
             CurrentEntity = user;
         }
-
 
         public ICommand LoginCommand
         {
@@ -50,10 +46,7 @@ namespace umaCollabApp.ViewModel.Users
                             Navigation.PushAsync(new ProjectListViewPage());
                         }
                         else
-                            Message.DisplayAlert("Error", "Your credentials don´t match any user!", "Ok");
-                             
-
-                        
+                            Message.DisplayAlert("Error", "Your credentials don´t match any user!", "Ok");            
                     }
                     catch (MandatoryException mandatory)
                     {
@@ -61,14 +54,11 @@ namespace umaCollabApp.ViewModel.Users
                     }
                     catch (Exception)
                     {
-
                         Message.DisplayAlert("Error", "Login error", "Ok");
                     }
 
                 }));
             }
         }
-
-
     }
 }

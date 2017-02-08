@@ -8,6 +8,9 @@ using umaCollabApp.Views;
 using umaCollabApp.Views.Projects;
 using Xamarin.Forms;
 
+/*
+ * Views models dos projectos faz o binding com a vista  respectiva , possuem a logica dos comandos para a navegaçao
+ */
 namespace umaCollabApp.ViewModel.Projects
 {
     class ProjectListByUserViewModel : ViewModelList<Project>

@@ -12,8 +12,8 @@
         <ListView.ItemTemplate>
           <DataTemplate>
             <ViewCell>
-              
-              <Button x:Name="lblMemberName" Text="{Binding FirstName}"  Command="{Binding insertUser}"> </Button>
+
+              <Label x:Name="lblMemberName" Text="{Binding FirstName}"></Label>
 
             </ViewCell>              
           </DataTemplate>

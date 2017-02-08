@@ -8,23 +8,22 @@ using umaCollabApp.Views;
 using umaCollabApp.Views.Projects;
 using Xamarin.Forms;
 
+/*
+ * Views models da listagem de projectos faz o binding com a vista  respectiva , possuem a logica dos comandos para a navegaçao
+ */
 namespace umaCollabApp.ViewModel.Projects
 {
     class ProjectListViewModel : ViewModelList<Project>
     {
-      
-        private ProjectDataService _dataService;
+        private ProjectDataService _dataService; 
         private ICommand _backCommand;
         private ICommand _rateCommand;
         private Project _currentItem;
-
 
         public ProjectListViewModel()
         {
             _dataService = new ProjectDataService(DependencyService.Get<ISQLite>().GetConnection());
             Entities = new ObservableCollection<Project>(_dataService.Select());
-          
-
         }
 
         public Project CurrentItem
@@ -39,7 +38,6 @@ namespace umaCollabApp.ViewModel.Projects
                     Navigation.PushAsync(new ProjectRegisterViewPage(_currentItem));            
             }
         }
-
 
         public ICommand BackCommand
         {
@@ -62,7 +60,5 @@ namespace umaCollabApp.ViewModel.Projects
                 }));
             }
         }
-
-
     }
 }

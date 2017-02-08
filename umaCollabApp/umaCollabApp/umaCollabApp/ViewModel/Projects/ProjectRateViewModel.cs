@@ -42,9 +42,6 @@ namespace umaCollabApp.ViewModel.Projects
         {
             // Dependency traz uma implementação de SQLite trazendo a conexão.
             _dataService = new ProjectDataService(DependencyService.Get<ISQLite>().GetConnection());
-
-            //Entities é do tipo Observable Collection, que recebe uma lista. Aqui passamos a coleção de dados.
-            //Entities = new ObservableCollection<Project>(_dataService.Select());
         }
 
         public ICommand BackCommand

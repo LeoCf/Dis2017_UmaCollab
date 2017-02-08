@@ -7,6 +7,9 @@ using umaCollabApp.Entities;
 using umaCollabApp.ViewModel.Base;
 using umaCollabApp.Views.Projects;
 using Xamarin.Forms;
+/*
+ * Views models dos projectos faz o binding com a vista  respectiva , possuem a logica dos comandos para a navegaçao
+ */
 
 namespace umaCollabApp.ViewModel.Projects
 {
@@ -18,7 +21,7 @@ namespace umaCollabApp.ViewModel.Projects
         private bool _deleteVisibility;
         private bool _updateVisibility;
       
-
+//Comandos de visibilidade dos butoes exemplo so devem surgir apos o utilizdor preencher certos campos 
         public bool SaveVisibility
         {
             get { return _saveVisibility; }

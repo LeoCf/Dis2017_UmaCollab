@@ -1,21 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using System.Windows.Input;
 using umaCollabApp.ViewModel.Base;
-using umaCollabApp.Views.Projects;
 using umaCollabApp.Views.Teams;
 using Xamarin.Forms;
 
+/*
+ * Views models das teams com as funcões para navegar para as respectivas funcionalidades das teams ou seja
+ * registar team , e listar equipa 
+ */
 namespace umaCollabApp.ViewModel.Teams
 {
     class TeamViewModel : ViewModelBase
     {
         private ICommand _teamRegisterCommand;
         private ICommand _teamListCommand;
-
 
         public ICommand TeamRegisterCommand
         {
@@ -27,8 +25,6 @@ namespace umaCollabApp.ViewModel.Teams
                 }));
             }
         }
-
-
 
         public ICommand TeamListCommand
         {

@@ -1,24 +1,28 @@
-﻿using System.Windows.Input;
+﻿using System.Collections.Generic;
+using System.Windows.Input;
+using umaCollabApp.Data;
+using umaCollabApp.Data.DataService;
+using umaCollabApp.entities;
 using umaCollabApp.Entities;
 using umaCollabApp.ViewModel.Base;
 using umaCollabApp.Views;
 using Xamarin.Forms;
 
+/*
+ * Views models dos detalhes da equipa formada faz o binding com a vista  respectiva , possuem a logica dos comandos para a navegaçao
+ */
 namespace umaCollabApp.ViewModel.Teams
 {
     class TeamDetailsViewModel : ViewModelList<User>
     {
         private ICommand _backCommand;
-        private User _currentItem;
+        private TeamDataService _teamDataService;
+        private IList<User> _currentTeamUser;
 
-        public TeamDetailsViewModel(User CurrentItem)
+        public TeamDetailsViewModel(Team CurrentTeam)
         {
-            _currentItem = CurrentItem;
-        }
-
-        public User CurrentItem
-        {
-            get { return _currentItem; }
+            _teamDataService = new TeamDataService(DependencyService.Get<ISQLite>().GetConnection());
+            _currentTeamUser = _teamDataService.ShowUserTeam(CurrentTeam);
         }
 
         public ICommand BackCommand

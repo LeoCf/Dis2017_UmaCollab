@@ -27,8 +27,6 @@ namespace umaCollabApp.ViewModel.Projects
             }
         }
 
-
-
         public ICommand ProjectListCommand
         {
             get

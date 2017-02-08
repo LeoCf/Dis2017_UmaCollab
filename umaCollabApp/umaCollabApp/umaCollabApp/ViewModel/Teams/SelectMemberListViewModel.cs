@@ -9,18 +9,28 @@ using umaCollabApp.Views;
 using umaCollabApp.Views.Teams;
 using Xamarin.Forms;
 
+/*
+ * Views models da selecçao de utilizador a adicionar a uma equipa
+ *  faz o binding com a vista  respectiva , possuem a logica dos comandos para a navegaçao
+ */
 namespace umaCollabApp.ViewModel.Teams
 {
     class SelectMemberListViewModel : ViewModelList<User>
     {
         private UserDataService _dataService;
+        private TeamDataService _teamDataService;
         private ICommand _backCommand;
         private User _currentItem;
         private Team _currentTeam;
 
-        public SelectMemberListViewModel()
+        public SelectMemberListViewModel(Team _currentTeam)
         {
-            LoadData();
+            // Dependency traz uma implementação de SQLite trazendo a conexão.
+            _dataService = new UserDataService(DependencyService.Get<ISQLite>().GetConnection());
+            _teamDataService = new TeamDataService(DependencyService.Get<ISQLite>().GetConnection());
+            //Entities é do tipo Observable Collection, que recebe uma lista. Aqui passamos a coleção de dados.
+            Entities = new ObservableCollection<User>(_dataService.Select());
+            this._currentTeam = _currentTeam;
         }
 
         public User CurrentItem
@@ -33,19 +43,10 @@ namespace umaCollabApp.ViewModel.Teams
 
                 if (_currentItem != null)
                 {
-                    
-                    Navigation.PushAsync(new TeamDetailsViewPage(CurrentItem));
+                    _teamDataService.addUserTeam(_currentTeam, _currentItem);
+                    Navigation.PushAsync(new TeamDetailsViewPage(_currentTeam));
                 }                  
             }
-        }
-
-        private void LoadData()
-        {
-            // Dependency traz uma implementação de SQLite trazendo a conexão.
-            _dataService = new UserDataService(DependencyService.Get<ISQLite>().GetConnection());
-
-            //Entities é do tipo Observable Collection, que recebe uma lista. Aqui passamos a coleção de dados.
-            Entities = new ObservableCollection<User>(_dataService.Select());
         }
 
         public ICommand BackCommand

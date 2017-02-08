@@ -5,7 +5,7 @@
              Title="Team Details">
   <ScrollView>
     <StackLayout Padding="20">
-      <Label Text="{Binding CurrentItem.FirstName}" ></Label>
+      <Label Text="{Binding _currentTeamUser}" ></Label>
       <Button x:Name="btnBack" Text="Back to Menu" Command="{Binding BackCommand}"></Button>
     </StackLayout>
   </ScrollView>

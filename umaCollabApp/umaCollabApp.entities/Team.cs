@@ -1,8 +1,5 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SQLite.Net.Attributes;
 using SQLiteNetExtensions.Attributes;
 using umaCollabApp.entities.Base;
@@ -38,7 +35,7 @@ namespace umaCollabApp.entities
         // propriedade virtual usada para ciar a relação um para muitos
         // TeamMembers é o lado "muitos", é uma ICollection (lista genérica). 
         [ManyToMany(typeof(TeamMember))]
-        public List<User> Users { get; set; }
+        public IList<User> Users { get; set; }
         
 
         public override void Validate()
