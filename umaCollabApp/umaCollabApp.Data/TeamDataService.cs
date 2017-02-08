@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using SQLite.Net;
 using umaCollabApp.Data.DataService;
 using umaCollabApp.entities;
+using umaCollabApp.Entities;
 
 namespace umaCollabApp.Data
 {
@@ -19,6 +20,7 @@ namespace umaCollabApp.Data
             // _connection = DependencyService.Get<ISQLite>().GetConnection();
             _connection = connection;
             _connection.CreateTable<Team>();
+           
         }
 
         public void Save(Team team)
@@ -39,6 +41,16 @@ namespace umaCollabApp.Data
         public IList<Team> Select()
         {
             return _connection.Table<Team>().ToList();
+        }
+
+
+        public IList<User> ShowUserTeam(Team team)
+        {
+
+            var userTable = _connection.Table<Team>();
+            var currentTeam=userTable.Where(x => x.TeamId == team.TeamId).FirstOrDefault();
+            return currentTeam.Users.ToList();
+
         }
 
     }
