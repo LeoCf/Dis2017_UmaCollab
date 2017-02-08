@@ -6,7 +6,8 @@ using SQLite.Net;
 using umaCollabApp.Data.DataService;
 using umaCollabApp.Entities;
 using umaCollabApp;
-
+using umaCollabApp.entities;
+using SQLiteNetExtensions.Extensions;
 
 namespace umaCollabApp.Data
 {
@@ -37,19 +38,26 @@ namespace umaCollabApp.Data
         public void Update(User user)
         {
             _connection.Update(user);
+            
         }
+
+        public void AddUserTeam(User user,Team team)
+        {
+
+            user.Teams.Add(team);
+            _connection.UpdateWithChildren(user);
+        }
+
+        
 
         public bool Login(User user)
         {
             string userEmail = user.Email;
             string userPassword = user.Password;
-               
-
             var dados = _connection.Table<User>();
             var verification = dados.Where(x => x.Email == userEmail && x.Password == userPassword).FirstOrDefault();
             if (verification != null)
             {
-
                 return true;
             }
             else
@@ -61,7 +69,6 @@ namespace umaCollabApp.Data
         {
             var dados = _connection.Table<User>();
             var currentUser = dados.Where(x => x.Email == user.Email).FirstOrDefault();
-
             return currentUser.UserId;
         }
         

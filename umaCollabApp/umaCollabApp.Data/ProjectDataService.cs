@@ -19,8 +19,6 @@ namespace umaCollabApp.Data
         public ProjectDataService(SQLiteConnection connection)
         {
             // _connection = DependencyService.Get<ISQLite>().GetConnection();
-
-
             _connection = connection;
             _connection.CreateTable<Project>();
         }

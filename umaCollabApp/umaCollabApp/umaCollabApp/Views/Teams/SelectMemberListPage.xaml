@@ -13,7 +13,7 @@
           <DataTemplate>
             <ViewCell>
               
-              <Label x:Name="lblMemberName" Text="{Binding FirstName}"></Label>
+              <Button x:Name="lblMemberName" Text="{Binding FirstName}"  Command="{Binding insertUser}"> </Button>
 
             </ViewCell>              
           </DataTemplate>

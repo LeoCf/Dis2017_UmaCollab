@@ -11,30 +11,24 @@ using umaCollabApp.Entities;
 
 namespace umaCollabApp.entities
 {
+    [Table("TEAMMEMBER")]
+
     public class TeamMember : EntitiesBase
     {
 
-        [Column("TEAMMEMBERID")]
-        [AutoIncrement, PrimaryKey]
+        [PrimaryKey, AutoIncrement]
         public int TeamMemberId { get; set; }
 
-
-        [ForeignKey(typeof(User))]     // Chave estrangeira
-        [Column("USERID")]
+        [ForeignKey(typeof(User))]
         public int UserId { get; set; }
 
-        // propriedades virtuais usadas para ciar as relações
-        // lado "muitos"
-        [ManyToOne]
-        public virtual Team Team { get; set; }
-
-        public virtual User User { get; set; }
-
-
+        [ForeignKey(typeof(Team))]
+        public int TeamId { get; set; }
 
         public override void Validate()
         {
             // rever validações para estes inputs
         }
+
     }
 }

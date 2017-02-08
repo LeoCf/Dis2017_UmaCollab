@@ -101,7 +101,9 @@ namespace umaCollabApp.Entities
         }
 
 
-    
+        [ManyToMany(typeof(TeamMember))]
+        public List<Team> Teams { get; set; }
+        
 
 
         // propriedade virtual usada para ciar a relação um para muitos

@@ -1,9 +1,11 @@
-﻿using System.Collections.ObjectModel;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Windows.Input;
 using umaCollabApp.Data;
 using umaCollabApp.Data.DataService;
+using umaCollabApp.entities;
 using umaCollabApp.Entities;
 using umaCollabApp.ViewModel.Base;
 using umaCollabApp.Views;
@@ -17,12 +19,17 @@ namespace umaCollabApp.ViewModel.Teams
         private UserDataService _dataService;
         private ICommand _backCommand;
         private User _currentItem;
+        
+
+        
 
 
         public TeamDetailsViewModel()
         {
-            LoadData();
+            _dataService = new UserDataService(DependencyService.Get<ISQLite>().GetConnection());
+
         }
+
 
 
         public User CurrentItem
@@ -40,17 +47,6 @@ namespace umaCollabApp.ViewModel.Teams
                 }
             }
         }
-
-
-        private void LoadData()
-        {
-            // Dependency traz uma implementação de SQLite trazendo a conexão.
-            _dataService = new UserDataService(DependencyService.Get<ISQLite>().GetConnection());
-
-            //Entities é do tipo Observable Collection, que recebe uma lista. Aqui passamos a coleção de dados.
-            Entities = new ObservableCollection<User>(_dataService.Select());
-        }
-
 
         public ICommand BackCommand
         {

@@ -1,7 +1,9 @@
-﻿using System.Collections.ObjectModel;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Windows.Input;
 using umaCollabApp.Data;
 using umaCollabApp.Data.DataService;
+using umaCollabApp.entities;
 using umaCollabApp.Entities;
 using umaCollabApp.ViewModel.Base;
 using umaCollabApp.Views;
@@ -14,24 +16,51 @@ namespace umaCollabApp.ViewModel.Teams
     {
         private UserDataService _dataService;
         private ICommand _backCommand;
-        private User _currentItem;
+        private ICommand _insertUser;
+        private User _currentUser;
+        private Team _currentTeam;
+        private IList<User> currentUsers;
+       
 
 
         public SelectMemberListViewModel()
         {
-            LoadData();
+            // Dependency traz uma implementação de SQLite trazendo a conexão.
+            _dataService = new UserDataService(DependencyService.Get<ISQLite>().GetConnection());
+            //Entities é do tipo Observable Collection, que recebe uma lista. Aqui passamos a coleção de dados.
+            
+            
+        }
+
+        
+
+
+        public Team CurrentTeam
+        {
+            get { return _currentTeam; }
+            set
+            {
+                _currentTeam = value;
+                RaisedPropertyChanged(() => CurrentTeam);
+
+                if (_currentTeam != null)
+                {
+
+                    Navigation.PushAsync(new TeamDetailsViewPage());
+                }
+            }
         }
 
 
-        public User CurrentItem
+        public User CurrentUser
         {
-            get { return _currentItem; }
+            get { return _currentUser; }
             set
             {
-                _currentItem = value;
-                RaisedPropertyChanged(() => CurrentItem);
+                _currentUser = value;
+                RaisedPropertyChanged(() => CurrentUser);
 
-                if (_currentItem != null)
+                if (_currentUser != null)
                 {
 
                     Navigation.PushAsync(new TeamDetailsViewPage());
@@ -41,13 +70,16 @@ namespace umaCollabApp.ViewModel.Teams
         }
 
 
-        private void LoadData()
+        public ICommand insertUser
         {
-            // Dependency traz uma implementação de SQLite trazendo a conexão.
-            _dataService = new UserDataService(DependencyService.Get<ISQLite>().GetConnection());
-
-            //Entities é do tipo Observable Collection, que recebe uma lista. Aqui passamos a coleção de dados.
-            Entities = new ObservableCollection<User>(_dataService.Select());
+            get
+            {
+                return _insertUser ?? (_insertUser= new Command(() =>
+                {
+                    _dataService.AddUserTeam(_currentUser, _currentTeam);
+                    Navigation.PushAsync(new HomeViewPage());
+                }));
+            }
         }
 
 
