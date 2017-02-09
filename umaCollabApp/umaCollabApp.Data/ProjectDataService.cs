@@ -47,7 +47,7 @@ namespace umaCollabApp.Data
         public void AddTeamProject(Project project, Team team)
         {
             project.Teams = new List<Team> { team };
-            _connection.updateWithChildren(project);
+            _connection.UpdateWithChildren(project);
         }
 
         public IList<Team> ShowProjectTeams (Project project)
