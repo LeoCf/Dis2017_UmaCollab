@@ -11,7 +11,6 @@ namespace umaCollabApp.entities
 {
     [Table("TBTEAM")]
 
-
     public class Team : EntitiesBase
     {
         private string _description;
@@ -32,10 +31,16 @@ namespace umaCollabApp.entities
         }
 
 
+        [ForeignKey(typeof(Project))]     // Chave estrangeira de projecto
+        public int ProjectId { get; set; }
+        [ManyToOne]                      //relaçao com projectos
+        public Project project { get; set; }
+
         // propriedade virtual usada para ciar a relação um para muitos
         // TeamMembers é o lado "muitos", é uma ICollection (lista genérica). 
         [ManyToMany(typeof(TeamMember))]
-        public IList<User> Users { get; set; }
+        public List<User> Users { get; set; }
+
         
 
         public override void Validate()

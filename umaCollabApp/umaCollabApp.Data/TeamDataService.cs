@@ -44,19 +44,16 @@ namespace umaCollabApp.Data
 
         public void addUserTeam(Team team, User user)
         {
-            var teamTable = _connection.Table<Team>();
-            var currentTeam = teamTable.Where(x => x.TeamId == team.TeamId).FirstOrDefault();
-            currentTeam.Users = new List<User> { user };
-            _connection.UpdateWithChildren(currentTeam);
+
+            team.Users = new List<User> { user };
+            _connection.UpdateWithChildren(team);
         }
 
 
         public IList<User> ShowUserTeam(Team team)
         {
-            var userTable = _connection.Table<Team>();
-            var currentTeam=userTable.Where(x => x.TeamId == team.TeamId).FirstOrDefault();
-            return currentTeam.Users;
-
+       
+            return team.Users;
         }
 
     }

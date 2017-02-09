@@ -35,9 +35,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DataService\ISQLite.cs" />
+    <Compile Include="DataService\ISQLiteOperationEvent.cs" />
     <Compile Include="DataService\ISQLiteOperationProject.cs" />
     <Compile Include="DataService\ISQLiteOperationTeam.cs" />
     <Compile Include="DataService\ISQLiteOperationUser.cs" />
+    <Compile Include="EventDataService.cs" />
     <Compile Include="ProjectDataService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TeamDataService.cs" />

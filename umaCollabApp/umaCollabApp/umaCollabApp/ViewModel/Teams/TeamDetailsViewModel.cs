@@ -15,7 +15,7 @@ namespace umaCollabApp.ViewModel.Teams
 {
     class TeamDetailsViewModel : ViewModelList<User>
     {
-        private ICommand _backCommand;
+        private ICommand _startCommand;
         private TeamDataService _teamDataService;
         private IList<User> _currentTeamUser;
 
@@ -25,11 +25,11 @@ namespace umaCollabApp.ViewModel.Teams
             _currentTeamUser = _teamDataService.ShowUserTeam(CurrentTeam);
         }
 
-        public ICommand BackCommand
+        public ICommand StartCommand
         {
             get
             {
-                return _backCommand ?? (_backCommand = new Command(() =>
+                return _startCommand ?? (_startCommand = new Command(() =>
                 {
                     Navigation.PushAsync(new HomeViewPage());
                 }));

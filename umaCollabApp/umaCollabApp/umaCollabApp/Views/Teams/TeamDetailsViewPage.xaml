@@ -5,8 +5,29 @@
              Title="Team Details">
   <ScrollView>
     <StackLayout Padding="20">
-      <Label Text="{Binding _currentTeamUser}" ></Label>
-      <Button x:Name="btnBack" Text="Back to Menu" Command="{Binding BackCommand}"></Button>
+      <ListView x:Name="itemListView" ItemsSource="{Binding _currentTeamUser}" SelectedItem="{Binding CurrentItem}" >
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <Grid Padding="5">
+                <Grid.RowDefinitions>
+                  <RowDefinition Height="20"></RowDefinition>
+                  <RowDefinition Height="20"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="*"></ColumnDefinition>
+                  <ColumnDefinition Width="150"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="TeamName" Grid.Row="0" Grid.Column="0" Text="{Binding FirstName}" LineBreakMode="TailTruncation"></Label>
+              </Grid>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+
+
+      <Button x:Name="btnHome" Text="Back to Menu" Command="{Binding StartCommand}"></Button>
+
     </StackLayout>
   </ScrollView>
 </ContentPage>

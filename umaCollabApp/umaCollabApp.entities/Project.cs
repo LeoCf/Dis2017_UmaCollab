@@ -7,6 +7,7 @@ using SQLite.Net.Attributes;
 using umaCollabApp.entities.Base;
 using umaCollabApp.entities.Exceptions;
 using SQLiteNetExtensions.Attributes;
+using umaCollabApp.entities;
 
 namespace umaCollabApp.Entities
 {
@@ -84,14 +85,17 @@ namespace umaCollabApp.Entities
             }
         }
 
-
         [Column("MANAGERID")]
         [ForeignKey(typeof(User))]
         [MaxLength(20)]
         public int managerID { get; set; }
 
-        [OneToMany]
-        public List<User> User { get; set; }
+        //Relaão 1 para muitos com as equipas
+        [OneToMany(CascadeOperations = CascadeOperation.All)]
+        public List<Team> Teams { get; set; }
+
+        [OneToMany(CascadeOperations = CascadeOperation.All)]
+        public List<Event> Events{ get; set; }
 
 
         public override void Validate()

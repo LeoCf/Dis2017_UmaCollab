@@ -5,7 +5,7 @@
               Title="My Projects">
   <ScrollView>
     <StackLayout Padding="20">
-      <ListView x:Name="itemListView" ItemsSource="{Binding projectUser}" SelectedItem="{Binding CurrentItem}" >
+      <ListView x:Name="itemListView" ItemsSource="{Binding Entities}" SelectedItem="{Binding CurrentItem}" >
         <ListView.ItemTemplate>
           <DataTemplate>
             <ViewCell>
@@ -18,14 +18,20 @@
                   <ColumnDefinition Width="*"></ColumnDefinition>
                   <ColumnDefinition Width="150"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
+
                 <Label x:Name="ProjectName" Grid.Row="0" Grid.Column="0" Text="{Binding Name}" LineBreakMode="TailTruncation"></Label>
                 <Label x:Name="ProjectId" Grid.Row="1" Grid.Column="0" Text="{Binding Id}" Font="Small"  TextColor="Gray" LineBreakMode="TailTruncation"></Label>
+
+    
               </Grid>
             </ViewCell>
           </DataTemplate>
         </ListView.ItemTemplate>
       </ListView>
+
+
       <Button x:Name="btnBack" Text="Back to Menu" Command="{Binding BackCommand}"></Button>
+
     </StackLayout>
-  </ScrollView>  
+  </ScrollView>
 </ContentPage>
