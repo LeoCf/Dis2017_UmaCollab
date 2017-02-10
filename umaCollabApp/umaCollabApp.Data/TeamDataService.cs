@@ -45,7 +45,7 @@ namespace umaCollabApp.Data
         public void addUserTeam(Team team, User user)
         {
 
-            team.Users = new List<User> { user };
+            team.Users .Add( user);
             _connection.UpdateWithChildren(team);
         }
 

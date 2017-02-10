@@ -92,7 +92,7 @@ namespace umaCollabApp.Entities
 
         //Relaão 1 para muitos com as equipas
         [OneToMany(CascadeOperations = CascadeOperation.All)]
-        public List<Team> Teams { get; set; }
+        public List<Team> Teams { get; set; } 
 
         [OneToMany(CascadeOperations = CascadeOperation.All)]
         public List<Event> Events{ get; set; }

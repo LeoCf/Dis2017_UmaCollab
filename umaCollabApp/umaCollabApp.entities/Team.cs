@@ -39,7 +39,7 @@ namespace umaCollabApp.entities
         // propriedade virtual usada para ciar a relação um para muitos
         // TeamMembers é o lado "muitos", é uma ICollection (lista genérica). 
         [ManyToMany(typeof(TeamMember))]
-        public List<User> Users { get; set; }
+        public List<User> Users { get; set; } = new List<User>();
 
         
 
